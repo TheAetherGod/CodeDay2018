@@ -4,8 +4,6 @@
     <title>LPNHS - Home</title>
     
     <!--TODO: Icon-->
-    
-    
     <!--Style Sheets-->
     <link rel="stylesheet" href="cssFolder\homePage.css">
     
@@ -23,7 +21,15 @@
 <!--Included via PHP-->
 <header id = "header"><?php include "header.php"; ?></header>
 
+<body>
+	 <!--MAIN CODE-->
+    
+	 <div id = "listOfEvents">
+		<p> Here are the events bitch.</p>
+		<b1 style = "color:Yellow;"> Here are some more events bitch</b1>
 
+	</div>
+</body>
 
 <!--Included via PHP-->
 <footer id = "footer"><?php include "footer.php"; ?></footer>
