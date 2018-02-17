@@ -30,12 +30,12 @@
 	<div id = "footerPusher">
 		<!--Home Page Panels-->
 		<div id = "importantInfo" class = "urgent panel">
-			<p class = "urgentText">Attention: No User Profile Yet</p>
+			<p class = "urgentText">Attention: No User Profile</p>
 			<p class = "urgentText"></p>
 		</div>
 		<div id = "aboutUs" class = "classic panel">
 			<p>About Us...</p>
-			<p><?php echo $aboutus; ?></p>
+			<p> Welcome to the user profile where you can see projects you currently managing or following</p>
 		</div>
 	</div>
 </body>
