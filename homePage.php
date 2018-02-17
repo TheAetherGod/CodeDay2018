@@ -11,7 +11,7 @@
     
     <!--Scripts-->
     <!--jQuery-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="Logo.png"></script>
     <script src="headerJQuery.js"></script>
     <script>
         $(document).ready(function(){
@@ -25,7 +25,7 @@
 
 <body>
     <!--Fixed Img in Background-->
-    <img id = "fixedBGImg" src = "https://www.nhs.us/assets/images/nhs/NHS_header_logo.png">
+    <img id = "fixedBGImg" src = "Logo.png">
     
 	<div id = "footerPusher">
 		<!--Home Page Main Img Card-->
