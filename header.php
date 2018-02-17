@@ -14,12 +14,12 @@
 <div id = "navBarWrapper">
     <nav id = "navBar" class = "topnav">
         <?php if(isset($_SESSION["StudentID"])) : ?>
-            <a class = "baseText" id = "homeLink" href = "index.php">Home</a>
+            <a class = "baseText" id = "homeLink" href = "homePage.php">Home</a>
             <a class = "baseText" id = "eventsLink" href = "events.php">Community Events</a>
             <a class = "baseText" id = "membersLink" href = "members.php">Sponsorships</a>
 			<a class = "baseText" id = "myProfileLink" href = "my-profile.php">My Profile</a>
         <?php else :?>
-            <a class = "baseText" id = "homeLink" href = "index.php">Home</a>
+            <a class = "baseText" id = "homeLink" href = "homePage.php">Home</a>
             <a class = "baseText" id = "communityInvolvementLink" href = "community-involvement.php">Community Events</a>
             <a class = "baseText" id = "membersLink" href = "members.php">Sponsorships</a>
 			<a class = "baseText" id = "whatItTakesLink" href = "what-it-takes.php">My Profile</a>
