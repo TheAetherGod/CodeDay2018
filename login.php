@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/login.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="cssFolder/login.css">
+    <link rel="stylesheet" href="cssFolder/homePage.css">
     <script src="js/jquery.js"></script>
     <script src="js/form.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
@@ -13,8 +13,7 @@
 </head>
 <body>
 <div id="container">
-    <?php include "nav.php"; ?>
-        <div class="body">
+<header id = "header"><?php include "header.php"; ?></header>        <div class="body">
             <form id="login" class="form" action="session.php" method="post" style="height:350px;">
                     <h2 class="logTitle">Log In</h2>
                     <hr class="loghr">
@@ -33,7 +32,7 @@
                 
             </form>
         </div>
-    <?php include "footer.php";?>
+        <footer id = "footer"><?php include "footer.php"; ?></footer>
 </div>
 </body>
 </html>
