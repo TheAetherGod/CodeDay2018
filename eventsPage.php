@@ -37,7 +37,7 @@
 		</div>
 		<div id = "Event1">
 		 	<div id = "frontImg" class = "card" style = "width: 95%;" style = "height: 100;">
-				<p style = "font-style: italic; font-size: 16px;">Promoting appropriate recognition of students who reflect outstanding accomplishments in the areas of scholarship, leadership, character, and service.</p>
+				<p style = "font-style: italic; font-size: 16px; padding: 200px;">Promoting appropriate recognition of students who reflect outstanding accomplishments in the areas of scholarship, leadership, character, and service.</p>
 			</div>
 		</div>
 	</div>
