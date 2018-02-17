@@ -29,11 +29,14 @@
 
 <body>
 	 <!--MAIN CODE-->
-    
-	 <div id = "listOfEvents">
-		<div class="textStuff">
+	 <div class="textStuff">
+			<p style = "font-size: 300%"> Create an Event?</p>
 			<p> Here are the events.</p>
 			<b1 style = "color:Yellow;"> Here are some more events.</b1>
+		</div>
+	 <div id = "Event1">
+		 <div id = "frontImg" class = "card" style = "width: 95%;" style = height: 1000px>
+			<p style = "font-style: italic; font-size: 16px;">Promoting appropriate recognition of students who reflect outstanding accomplishments in the areas of scholarship, leadership, character, and service.</p>
 		</div>
 	</div>
 </body>
