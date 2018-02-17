@@ -7,7 +7,7 @@
     
     
     <!--Style Sheets-->
-    <link rel="stylesheet" href="homePage.css">
+    <link rel="stylesheet" href="cssFolder\homePage.css">
     
     <!--Scripts-->
     <!--jQuery-->
@@ -39,7 +39,6 @@
 			<p class = "urgentText">Attention:</p>
 			<p class = "urgentText"></p>
 		</div>
-        <?php else: endif; ?>
 		<div id = "aboutUs" class = "classic panel">
 			<p>About Us...</p>
 			<p><?php echo $aboutus; ?></p>
