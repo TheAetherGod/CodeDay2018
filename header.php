@@ -1,7 +1,7 @@
 <div id = "banner" style = "width:100%">
-	<img id = "LPLogo" src = "https://www.lphs.org/cms/lib/IL01904769/Centricity/Template/GlobalAssets/images///logos/_default.png">
+	<img id = "LPLogo" src = "images/Logo.png">
         
-<h1 class = "baseTitle" style = "padding-bottom: 0px; margin-bottom:0px; color: #17252A;  font-size:64px; text-shadow: 2px 2px 4px #000;"><span id = "LPNHS" style = "cursor: pointer;" onclick = "location.href='index.php'">Make It Happen</span></h1>
+<h1 class = "baseTitle" style = "padding-bottom: 0px; margin-bottom:0px; color: rgb(74, 202, 111);  font-size:64px; text-shadow: 2px 2px 4px #000;"><span id = "LPNHS" style = "cursor: pointer;" onclick = "location.href='homePage.php'">Make It Happen</span></h1>
 <?php if(isset($_SESSION["userID"])) : ?>
 	<div id = "headerLogout" class = "headerSignIn"><a class = "headerLogoutButton">User Profile</a></div>
 	<?php else: ?>

@@ -108,7 +108,7 @@ width: 100%;
 .topnav a {
     float: left;
     display: inline-block;
-    color: black;
+    color: rgb(100, 248, 144);
     text-align: center;
     padding: 14px 0px;
     text-decoration: none;
@@ -118,11 +118,11 @@ width: 100%;
 
 /* Change the color of links on hover or active*/
 .topnav a:hover {
-    background-color: #005da3;
+    background-color: rgb(74, 202, 111);
     color: white;
 }
 .topnav a.active {
-    background-color: #005da3;
+    background-color: rgb(74, 202, 111);
     color: white;
 }
 
