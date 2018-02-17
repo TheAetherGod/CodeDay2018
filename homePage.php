@@ -25,25 +25,21 @@
 
 <body>
     <!--Fixed Img in Background-->
-<<<<<<< HEAD
     <img id = "fixedBGImg" src = "Logo.png">
-=======
->>>>>>> 5a68eaf4dda27a188e6470815474cf6ad6b8cea8
     
 	<div id = "footerPusher">
 		<!--Home Page Main Img Card-->
 		<div id = "frontImg" class = "card" style = "width: 79%;">
-			<p style = "font-style: italic; font-size: 16px; text-align: left">Feed: Looking for popular events? </p>
+			<p style = "font-style: italic; font-size: 16px;">Promoting appropriate recognition of students who reflect outstanding accomplishments in the areas of scholarship, leadership, character, and service.</p>
 		</div>
 
 		<!--Home Page Panels-->
 		<div id = "importantInfo" class = "urgent panel">
-			<p style = "text-align: left" class = "urgentText">Web discription:</p>
+			<p class = "urgentText">Attention:</p>
 			<p class = "urgentText"></p>
 		</div>
 		<div id = "aboutUs" class = "classic panel">
-            <p>About Us...</p>
-            <p>hello</p>
+			<p>About Us...</p>
 		</div>
 	</div>
 </body>
