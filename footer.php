@@ -1,5 +1,5 @@
-<h4 class = "baseText" style = "font-size: 24px">Suck Butts</h4>
-    <p class = "footerText">Created by Sahil Patel and Ben Wagrez</p>
+<h4 class = "baseText" style = "font-size: 24px">Make It Happen</h4>
+    <p class = "footerText">Created by Ben, Kush, Luis, Salvador</p>
     
     <!--Notice that this page is UNOFFICIAL-->
-    <p style = "color: white;">***This website is UNOFFICIAL and is currently approved by neither Lake Park High School nor the Lake Park National Honor Society Chapter***</p>
+    <p style = "color: white;">***This website was created at Codeday Chicago 2018***</p>
