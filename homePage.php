@@ -30,10 +30,10 @@
 	<div id = "footerPusher">
 		<!--Home Page Main Img Card-->
 		<div id = "frontImg" class = "card" style = "width: 50%;">
-		   <img src = "MIH.png" style = "width: 100%;">
+		
 			<p style = "font-style: italic; font-size: 16px;">Promoting appropriate recognition of students who reflect outstanding accomplishments in the areas of scholarship, leadership, character, and service.</p>
 		</div>
-    
+
 		<!--Home Page Panels-->
 		<div id = "importantInfo" class = "urgent panel">
 			<p class = "urgentText">Attention:</p>
