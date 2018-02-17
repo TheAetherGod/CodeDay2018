@@ -23,8 +23,6 @@
 <!--Included via PHP-->
 <header id = "header"><?php include "header.php"; ?></header>
 
-
-
 <!--Included via PHP-->
 <footer id = "footer"><?php include "footer.php"; ?></footer>
 </html>
