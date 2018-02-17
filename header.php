@@ -22,7 +22,7 @@
             <a class = "baseText" id = "homeLink" href = "index.php">Home</a>
             <a class = "baseText" id = "communityInvolvementLink" href = "community-involvement.php">Community Events</a>
             <a class = "baseText" id = "membersLink" href = "members.php">Members</a>
-			<a class = "baseText" id = "whatItTakesLink" href = "what-it-takes.php">What It Takes</a>
+			<a class = "baseText" id = "whatItTakesLink" href = "what-it-takes.php">Dank Memes</a>
         <?php endif; ?>
     </nav>
 </div>
