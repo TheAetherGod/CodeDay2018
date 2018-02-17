@@ -24,8 +24,6 @@
 <header id = "header"><?php include "header.php"; ?></header>
 
 <body>
-    <!--Fixed Img in Background-->
-    <img id = "fixedBGImg" src = "https://www.nhs.us/assets/images/nhs/NHS_header_logo.png">
     
 	<div id = "footerPusher">
 		<!--Home Page Main Img Card-->
