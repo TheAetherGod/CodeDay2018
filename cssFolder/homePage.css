@@ -191,7 +191,7 @@ div.panel p{
 /* Select Imgs */
 #LPLogo{
     position:absolute;
-    bottom:calc(100% - 115px); 
+    bottom:calc(100% - 140px); 
     right:calc(100% - 150px); 
     z-index:1;
 }
