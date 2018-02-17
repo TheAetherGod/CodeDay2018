@@ -25,21 +25,21 @@
 
 <body>
     <!--Fixed Img in Background-->
-    <img id = "fixedBGImg" src = "https://www.nhs.us/assets/images/nhs/NHS_header_logo.png">
     
 	<div id = "footerPusher">
 		<!--Home Page Main Img Card-->
 		<div id = "frontImg" class = "card" style = "width: 79%;">
-			<p style = "font-style: italic; font-size: 16px;">Promoting appropriate recognition of students who reflect outstanding accomplishments in the areas of scholarship, leadership, character, and service.</p>
+			<p style = "font-style: italic; font-size: 16px; text-align: left">Feed: Looking for popular events? </p>
 		</div>
 
 		<!--Home Page Panels-->
 		<div id = "importantInfo" class = "urgent panel">
-			<p class = "urgentText">Attention:</p>
+			<p style = "text-align: left" class = "urgentText">Web discription:</p>
 			<p class = "urgentText"></p>
 		</div>
 		<div id = "aboutUs" class = "classic panel">
-			<p>About Us...</p>
+            <p>About Us...</p>
+            <p>hello</p>
 		</div>
 	</div>
 </body>
