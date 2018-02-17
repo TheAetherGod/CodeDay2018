@@ -1,60 +1,45 @@
-
-<!DOCTYPE html>
-<?php session_start();
-//include "loginCheck.php";
-//include "database.php";?>
-<?php
-	//collecting user data and house id data 
-	$sql = "SELECT * FROM user WHERE username=:myUser";
-	$stmt = $pdo->prepare($sql);
-	$stmt->execute(["myUser" => $_SESSION["Username"]]); //order of arrays corresponds order of ?
-	$user = $stmt->fetch(PDO::FETCH_OBJ);
-	$dbuserhouseid = $user->homeid;
-	$dbuserphonenumber=$user->phonenumber;
-	$dbuseremail=$user->email;
-
-	$sql = "SELECT * FROM home WHERE id=:myHouseID";
-    $stmt = $pdo->prepare($sql);
-    $stmt->execute(["myHouseID" => $dbuserhouseid]); //order of arrays corresponds order of ?
-    $user = $stmt->fetch(PDO::FETCH_OBJ);
-    $rowCounthouseID = $stmt->rowCount();
-	?>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-   		<meta charset="UTF-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<link type="text/css" rel="stylesheet" href="css/index.css"/>
-		<link type="text/css" rel="stylesheet" href="css/userprofile.css"/>
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
-	</head>
-	<body>
-		<div id="container">
-			<?php include 'nav.php';?>
-				<div class="body" style="padding: 300px;">
-					<div  class = "mainPlat" style="background-color:#FFFFFF;">
-						<div class="userProfileTitle"><?php echo $_SESSION["Username"];?>'s Profile<hr class="userProfilehr"></hr></div>
-						<ul>
-							<li id="info">Username:     <?php echo $_SESSION["Username"];?></li>
-							
-							<li id="info">Email:     <?php echo $dbuseremail;?></li>
-							
-							<li id="info">Phone number:     <?php echo $dbuserphonenumber;?></li>
-							<?php 
+    <title>LPNHS - Home</title>
+    
+    <!--TODO: Icon-->
+    
+    
+    <!--Style Sheets-->
+    <link rel="stylesheet" href="cssFolder\homePage.css">
+    
+    <!--Scripts-->
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="headerJQuery.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#homeLink").addClass("active");
+        });
+    </script>
+</head>
 
-							if($rowCounthouseID==1) : ?>
-							
-							<li id="info">House ID:     <?php echo $dbuserhouseid?></li>
-							
-							<li id="info">Housing Address:     1083 Chicago Street</li>
-							<?php else : ?>
-							<li id="info">House ID:     No house has been claimed!</li>
-							<li id="info"><button id="housebutton"><a href="homebuilder.php" style="color:black">Claim a house!</a></button></li>
-							<?php endif; ?>
-						</ul>
-					</div>
-				</div>
-			<?php include "footer.php";?>
+<!--Included via PHP-->
+<header id = "header"><?php include "header.php"; ?></header>
+
+<body>
+    <!--Fixed Img in Background-->
+    <img id = "fixedBGImg" src = "https://www.nhs.us/assets/images/nhs/NHS_header_logo.png">
+    
+	<div id = "footerPusher">
+		<!--Home Page Panels-->
+		<div id = "importantInfo" class = "urgent panel">
+			<p class = "urgentText">Attention: No User Profile Yet</p>
+			<p class = "urgentText"></p>
 		</div>
-	</body>
+		<div id = "aboutUs" class = "classic panel">
+			<p>About Us...</p>
+			<p><?php echo $aboutus; ?></p>
+		</div>
+	</div>
+</body>
+
+<!--Included via PHP-->
+<footer id = "footer"><?php include "footer.php"; ?></footer>
 </html>

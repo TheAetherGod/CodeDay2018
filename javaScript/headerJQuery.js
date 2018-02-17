@@ -32,11 +32,5 @@ $(document).ready(function(){
         window.location = "logout.php";
     });
 
-    //Log In dropdown (initial-hidden)
-    // $("#login").slideUp(1);
-    // $("#loginSlider").click(function(){
-    //     $("#login").css("visibility", "visible")
-    //     .stop()
-    //     .slideToggle(200);
-    //});
+
 });

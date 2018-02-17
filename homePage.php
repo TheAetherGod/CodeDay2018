@@ -29,8 +29,7 @@
     
 	<div id = "footerPusher">
 		<!--Home Page Main Img Card-->
-		<div id = "frontImg" class = "card" style = "width: 50%;">
-		
+		<div id = "frontImg" class = "card" style = "width: 79%;">
 			<p style = "font-style: italic; font-size: 16px;">Promoting appropriate recognition of students who reflect outstanding accomplishments in the areas of scholarship, leadership, character, and service.</p>
 		</div>
 
@@ -41,7 +40,6 @@
 		</div>
 		<div id = "aboutUs" class = "classic panel">
 			<p>About Us...</p>
-			<p><?php echo $aboutus; ?></p>
 		</div>
 	</div>
 </body>
