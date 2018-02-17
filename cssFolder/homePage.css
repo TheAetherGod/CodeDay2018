@@ -205,7 +205,10 @@ div.panel p{
     margin: 10px;
     font-size: 20px;
 }
-
+.baseText:hover{
+	transform: translateY(-2px);
+	transition: 400ms;
+}
 /* Cards (shadowed imgs) */
 .card{
     margin: 30px auto;
