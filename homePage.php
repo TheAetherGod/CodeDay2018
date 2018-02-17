@@ -33,21 +33,6 @@
 		
 			<p style = "font-style: italic; font-size: 16px;">Promoting appropriate recognition of students who reflect outstanding accomplishments in the areas of scholarship, leadership, character, and service.</p>
 		</div>
-    
-	
-		$var = 'your value';
-echo '<input type="text" name="name1" value="'.$var.'">';
-
-echo '<textarea class="box">'.$var.'</textarea>';
-
-<style>
-    .box{
-        border: 1px solid #aaa; /*getting border*/
-        border-radius: 4px; /*rounded border*/
-        color: #000; /*text color*/
-    }
-</style>
-
 
 		<!--Home Page Panels-->
 		<div id = "importantInfo" class = "urgent panel">
