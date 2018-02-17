@@ -5,6 +5,12 @@
     
     <!--TODO: Icon-->
     <!--Style Sheets-->
+	<style>
+		.textStuff{
+			text-align: center;
+		}
+	</style>
+
     <link rel="stylesheet" href="cssFolder\homePage.css">
     
     <!--Scripts-->
@@ -25,9 +31,10 @@
 	 <!--MAIN CODE-->
     
 	 <div id = "listOfEvents">
-		<p> Here are the events bitch.</p>
-		<b1 style = "color:Yellow;"> Here are some more events bitch</b1>
-
+		<div class="textStuff">
+			<p> Here are the events.</p>
+			<b1 style = "color:Yellow;"> Here are some more events.</b1>
+		</div>
 	</div>
 </body>
 
