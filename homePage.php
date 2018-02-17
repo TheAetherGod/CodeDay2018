@@ -36,7 +36,7 @@
     
 		<!--Home Page Panels-->
 		<div id = "importantInfo" class = "urgent panel">
-			<p class = "urgentText">Attention:</p>
+			<p class = "urgentText">Attention: will the real slim shady please stand up</p>
 			<p class = "urgentText"></p>
 		</div>
 		<div id = "aboutUs" class = "classic panel">
