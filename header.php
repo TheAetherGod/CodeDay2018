@@ -18,7 +18,7 @@
         </div>
     </div>
 	<?php else: ?>
-		<div id = "headerLogin" class = "headerSignIn"><a class = "headerLoginButton" href = "login.php" style="text-decoration:none;padding:5px;">Sign In</a></div>
+		<div id = "headerLogin" class = "headerSignIn" style = "width:15%; height: 50px; text-align: right; margin:10px;"><a class = "headerLoginButton" href = "login.php" style="text-decoration:none; width:100%; height:50px; font-size:20px; color:white;text-align:right; font-family: Bookman, sans-serif">Sign In</a></div>
 	<?php endif; ?>
 </div>
     
