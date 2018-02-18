@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
-<?php session_start();?>
+<?php session_start();
+include'database.php';?>
 <html>
 <head>
     <title>Codeday</title>
@@ -25,7 +26,6 @@
 <header id = "header"><?php include "header.php"; ?></header>
 
 <body>
-    
 	<div id = "footerPusher">
 		<!--Home Page Main Img Card-->
 		<div id = "frontImg" class = "card" style = "width: 79%;">

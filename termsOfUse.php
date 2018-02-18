@@ -24,6 +24,9 @@
 <header id = "header"><?php include "header.php"; ?></header>
 
 <div id = "frontImg" class = "card" style = "width: 79%;">
+<b style = "text-align: center; font-size: 50px">Terms of Service</b>
+</div>
+<div id = "frontImg" class = "card" style = "width: 79%;">
 			<p style = "font-style: italic; font-size: 16px; text-align: left;">TERMS OF SERVICE
 
 ----
