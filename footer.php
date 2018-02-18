@@ -2,4 +2,4 @@
     <p class = "footerText">Created by Ben, Kush, Luis, Salvador</p>
     
     <!--Notice that this page is UNOFFICIAL-->
-    <p style = "color: white;">***This website was created at Codeday Chicago 2018***</p>
+    <p style = "color: white;">***This website was created at <a href="https://codeday.org/chicago" style = "color: blue;">Codeday Chicago</a> 2018***</p>
