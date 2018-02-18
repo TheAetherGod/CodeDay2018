@@ -27,19 +27,19 @@
 <body>
     <!--Fixed Img in Background-->
 
-<div id = "frontImg" class = "card" style = "width: 79%;">
+<div id = "frontImg" class = "card" style = "width: 79%;height:500px;">
+<div style = "Height: 500px;">
 <img id = "User.png">
 <img src ="images/User.png"/>
+</div>
+<div>
 			<p style = "font-style: italic; font-size: 16px; text-align: left;">Welcome User!</p>
             <p style = "font-style: italic; font-size: 16px; text-align: left;">Name:</p>
             <p style = "font-style: italic; font-size: 16px; text-align: left;">Following:</p>
             <p style = "font-style: italic; font-size: 16px; text-align: left;">Followers:</p>
+            <p style = "font-style: italic; font-size: 16px; text-align: left;">Current Projects/Events: Party on the train</p>
+            </div>
 		</div>
-        
-<div id = "frontImg" class = "card" style = "width: 79%;">
-			<p style = "font-style: italic; font-size: 16px; text-align: left;">Current Projects/Events: Party on the train</p>
-		</div>
-
 <!--Included via PHP-->
 <footer id = "footer"><?php include "footer.php"; ?></footer>
 </html>
