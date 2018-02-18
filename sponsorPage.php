@@ -63,7 +63,7 @@ include"database.php";?>
                 <div class="main">
                     <span id="error">
                     </span>
-                    <form id="eventCreator" action="eventCreationPg2.php" method="POST" enctype="multipart/form-data">
+                    <form id="eventCreator" action="sponsorConfirmation.php" method="POST" enctype="multipart/form-data">
                         <table align = "center;" style="width:100%;" class = "listing">
                             <tr>
                                 <td><label>Name on Card :<span>*</span></label></td>
@@ -86,10 +86,11 @@ include"database.php";?>
                                 <td><input name="amount" type="integer" placeholder="eg: 1000 = $1000.00" required></td>
                             </tr>
                             <tr>
-                                <td></td>
+                                <td><input name="eventID" type="hidden" placeholder="eg: 1000 = $1000.00" value='"',$_GET['value_key'],'"';required></td>
                                 <td style = "text-align:center;text-sixe:200%;"><input type="submit" value="Submit" class = "classicColor"/></td>
                             </tr>
-                        </table>
+                            </table>
+
                     </form>
                 </div>
             </div>
