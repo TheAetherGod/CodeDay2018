@@ -40,11 +40,6 @@ include 'database.php';?>
     <!--jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="headerJQuery.js"></script>
-    <script>
-        $(document).ready(function(){
-            $("#homeLink").addClass("active");
-        });
-    </script>
 </head>
 
 <!--Included via PHP-->
@@ -54,23 +49,35 @@ include 'database.php';?>
     <!--Fixed Img in Background-->
     <div id = "frontImg" class = "card" style = "width: 75%;height:400px;">
         <div id = "topDiv" style = "width:100%; height: 50%; display:flex;">
-            <div style = "Height: 100%;width:30%; margin-left: 15px;">
+            <div style = "Height: 100%;width:30%;">
                 <img id = "User.png">
-                <img style="height:100%;width:100%;" src ="images/<?php echo $data[0][5]; ?>"/>
+                <img style="height:85%;width:85%;padding:10px;" src ="images/<?php echo $data[0][5]; ?>"/>
             </div>
-            <div style = "Height: 100%;width:70%padding:10px;margin-top:15px;">
-			    <p style = "font-style: italic; font-size: 16px; text-align: left;color:rgb(100, 248, 144);text-shadow: 1px 1px 2px #000;">Welcome <?php echo '<a style="color:white;text-decoration:none;">',$data[0][1],'!</a>'; ?></p>
-                <p style = "font-style: italic; font-size: 16px; text-align: left;color:rgb(100, 248, 144);text-shadow: 1px 1px 2px #000;">Name: <?php echo '<a style="color:white;text-decoration:none;">',$data[0][1],' ',$data[0][2],'</a>'; ?></p>
-                <p style = "font-style: italic; font-size: 16px; text-align: left;color:rgb(100, 248, 144);text-shadow: 1px 1px 2px #000;">Following: <?php for($x=0;$x<$following;$x++){echo '<a style="color:white;text-decoration:none;">',$userFollowingArray[0][$x]," </a>"; }?></p>
-                <p style = "font-style: italic; font-size: 16px; text-align: left;color:rgb(100, 248, 144);text-shadow: 1px 1px 2px #000;">Followers: <?php for($x=0;$x<$followed;$x++){echo '<a style="color:white;text-decoration:none;">',$userFollowingArrays[0][$x]," </a>"; }?></p>
-                <p style = "font-style: italic; font-size: 16px; text-align: left;color:rgb(100, 248, 144);text-shadow: 1px 1px 2px #000;">Current Projects/Events: <?php for($x=0;$x<$myEvents;$x++){echo '<a style="color:white;text-decoration:none;">',$events[0][$x]," </a>"; }?></p>
-                <a type="submit" style = "color:rgb(100, 248, 144); text-shadow: 2px 2px 4px #000; value="Create +"></a>
+            <div style = "Height: 100%;width:70%;margin-top:15px;">
+                <table style="width:100%;height:100%;text-align:center;">
+                    <tr>
+                    <th><p style = "font-style: italic; font-size: 16px; text-align: left;color:rgb(100, 248, 144);text-shadow: 1px 1px 2px #000;">Welcome <?php echo '<a style="color:white;text-decoration:none;">',$data[0][1],'!</a>'; ?></p></th>
+                    <th><p style = "font-style: italic; font-size: 16px; text-align: left;color:rgb(100, 248, 144);text-shadow: 1px 1px 2px #000;">Name: <?php echo '<a style="color:white;text-decoration:none;">',$data[0][1],' ',$data[0][2],'</a>'; ?></p></th>
+                    </tr><tr><th><p style = "font-style: italic; font-size: 16px; text-align: left;color:rgb(100, 248, 144);text-shadow: 1px 1px 2px #000;">Following: <?php for($x=0;$x<$following;$x++){echo '<a style="color:white;text-decoration:none;">',$userFollowingArray[0][$x]," </a>"; }?></p></th>
+                    <th><p style = "font-style: italic; font-size: 16px; text-align: left;color:rgb(100, 248, 144);text-shadow: 1px 1px 2px #000;">Followers: <?php for($x=0;$x<$followed;$x++){echo '<a style="color:white;text-decoration:none;">',$userFollowingArrays[0][$x]," </a>"; }?></p></th>
+                    </tr><tr><th><p style = "font-style: italic; font-size: 16px; text-align: left;color:rgb(100, 248, 144);text-shadow: 1px 1px 2px #000;">Current Projects/Events: <?php for($x=0;$x<$myEvents;$x++){echo '<a style="color:white;text-decoration:none;">',$events[0][$x]," </a>"; }?></p></th>
+                    <th><a href="eventCreation.php"style = "color:rgb(100, 248, 144); text-shadow: 1px 1px 2px #000;font-size: 20px;">Create An Event!</a></th>
+                </table>
             </div>
         </div>
+        <hr style="border: 1px solid grey;
+			margin-bottom: 35px;
+			width: 99%;">
         <div id = "userComments" style = "width: 100%; height: 50%;padding:10px;">
-            <p>
-                Comments go HERE!!!
-            </p>
+        <?php
+        echo'
+                <table>
+                    <tr>        
+                        <td><label>Description :</label></td>
+                        <td><textarea rows="4" cols="36" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" maxlength="128" style="overflow:hidden" width="250" name="description" placeholder="eg: A party inside a train across Europe." form="eventCreator"></textarea></td>
+                    </tr>
+                </table>';
+        ?>
         </div>
     </div>
 </body>        

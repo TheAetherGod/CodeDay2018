@@ -35,11 +35,10 @@ include'database.php';?>
 		<!--Home Page Panels-->
 		<div id = "importantInfo" class = "card" style = "width: 79%;">
 			<p style = "text-align: left" class = "urgentText">Web description:</p>
-        <div style = "text-align: center;"><iframe  width="560" height="315" SRC="https://www.youtube.com/embed/E8sMxqufRRw"</div>
-</div>
+            <div style = "text-align: center;"><iframe  width="560" height="315" SRC="https://www.youtube.com/embed/E8sMxqufRRw"></iframe>
+            </div>
+        </div>
 	</div>
-    </div>
-    </div>
 </body>
 
 <!--Included via PHP-->

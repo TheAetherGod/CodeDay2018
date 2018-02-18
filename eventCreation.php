@@ -63,15 +63,7 @@ include "database.php";?>
                 <?php include "eventCreationPg1.php"; ?>
             </div>
             <?php 
-        if(isset($_COOKIE['ERROR'])) {
-            $Error = $_COOKIE['ERROR'];
-            echo '<script>
-            $(document).ready(function(){
-                alert("', $Error,'");
-            });
-            </script>';
-            setcookie("ERROR","", time() - (86400 * 30), "/");
-            }
+
 
 ?>
 	</div>
