@@ -35,10 +35,11 @@ include "database.php";?>
 			<p style = "font-style: italic; font-size: 16px; text-align: left;">Contact Information</p>
             <p style = "font-style: italic; font-size: 16px; text-align: left;">Make It Happen Headquarters: 123-456-7890</p>
             <p style = "font-style: italic; font-size: 16px; text-align: left;">Make It Happen Customer Service: 098-765-4321</p>    
-            <p style = "font-style: italic; font-size: 16px; text-align: left;">Make It Happen Twitter: @MIHOffical</p>  
+            <p style = "font-style: italic; font-size: 16px; text-align: left;color: black;">Twitter:<a href="https://twitter.com/mihoffical" style = "color:blue"; >@MIHOffical</a> </p>  
             <p style = "font-style: italic; font-size: 16px; text-align: left; color: black;">Email: <a href="mailto:makeithappenoffical@gmail.com ?cc=Customer Review" style = "color:blue;">makeithappenoffical@gmail.com</a>
 <p> Feel free to ask any questions @ our email </p>
 		</div>
+        </div>
         </div>
         </body>
  <!--Included via PHP-->
