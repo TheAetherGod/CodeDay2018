@@ -6,7 +6,12 @@ include 'database.php';?>
     <title>LPNHS - Home</title>
     
     <!--TODO: Icon-->
-    
+    <?php $sql = "SELECT * FROM users WHERE userID=:users";
+                            $stmt = $pdo->prepare($sql);
+                            $stmt->execute(["users" => $_SESSION["userID"]]); 
+                            $data = array();
+                            $data = $stmt->fetchAll();
+                            echo '<p style="padding:5px;">',$data[0][1],'</p>';?> 
     
     <!--Style Sheets-->
     <link rel="stylesheet" href="cssFolder\homePage.css">
