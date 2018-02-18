@@ -97,5 +97,4 @@
     else{
         setcookie("ERROR","Duplicate event detected.", time() + (86400 * 30), "/");
     }
-    //header("Location: eventCreation.php");
 ?>
