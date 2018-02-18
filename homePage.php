@@ -35,6 +35,7 @@
 		<!--Home Page Panels-->
 		<div id = "importantInfo" class = "card" style = "width: 79%;">
 			<p style = "text-align: left" class = "urgentText">Web discription:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/E8sMxqufRRw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		</div>
 	</div>
 </body>
