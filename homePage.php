@@ -110,7 +110,7 @@ include'database.php';?>
                                 $a=array();
                                 array_push($a,$stmt->fetchALL(PDO::FETCH_COLUMN, 0));
 
-
+                                $eventIDBiggest=0;
                                 $largest=0;
                                 array_push($a,$stmt->fetchALL(PDO::FETCH_COLUMN, 0));
                                 for($x=0;$x<$eventCount;$x++){
