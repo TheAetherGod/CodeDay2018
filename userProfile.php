@@ -43,11 +43,10 @@
 			<p style = "font-style: italic; font-size: 16px; text-align: left;">Feed:Following/
             Followers</p>
 		</div>
-
-
+<body>
 
 		<div id = "aboutUs" class = "classic panel">
-			<p>About Us...</p>
+			<p>User Profile Information</p>
 			<p> Welcome to the user profile where you can see projects you currently managing or following</p>
 		</div>
 	</div>
