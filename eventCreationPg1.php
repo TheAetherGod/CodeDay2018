@@ -2,7 +2,7 @@
     <div class="main">
         <span id="error">
         </span>
-        <form id="eventCreator" action="eventCreationPg2.php" method="post">
+        <form id="eventCreator" action="eventCreationPg2.php" method="POST" enctype="multipart/form-data">
             <table style="width=100%;" class = "listing">
                 <tr>
                     <td><label>Event Name :<span>*</span></label></td>
@@ -33,8 +33,12 @@
 					<td><input name="moneyProposed" type="int" placeholder="eg: $5,000" required></td>
                 </tr>
                 <tr>
+					<td><label>Event Picture :<span>*</span></label></td>
+					<td><input name="file" id="file" type="file" style="color:white;" required></td>
+                </tr>
+                <tr>
 					<td></td>
-					<td style = "text-align:center;"><input type="submit" value="Next" class = "classicColor"/></td>
+					<td style = "text-align:center;"><input type="submit" value="Submit" class = "classicColor"/></td>
                 </tr>
             </table>
         </form>

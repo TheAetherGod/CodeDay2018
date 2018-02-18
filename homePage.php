@@ -37,7 +37,7 @@
 			<p style = "text-align: left" class = "urgentText">Web discription:</p>
 			<p class = "urgentText"></p>
 		</div>
-		
+		<?php echo phpinfo(); ?>
 	</div>
 </body>
 

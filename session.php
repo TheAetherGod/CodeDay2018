@@ -30,7 +30,8 @@ session_start();
     $rowCount = $stmt->rowCount();
     //welcome to the hack
     if ($rowCount != 1) { 
-        echo "invalid username or password";
+        setcookie("ERROR","invalid username or password", time() + (86400 * 30), "/");
+        header("location: error.php");
 
     } else if($rowCount==1){ //if only 1 user returned
         //grab info from db
@@ -43,7 +44,8 @@ session_start();
             header('Location: userprofile.php'); 
             echo ("You've reached the point you should move to a different website");
         } else{
-             echo "invalid username or password";
+            setcookie("ERROR","invalid username or password", time() + (86400 * 30), "/");
+            header("location: error.php");
         }
     }
      ?>
