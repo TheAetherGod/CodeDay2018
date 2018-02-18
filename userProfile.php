@@ -25,16 +25,18 @@
 
 <body>
     <!--Fixed Img in Background-->
-    <img id = "fixedBGImg" src = "https://www.nhs.us/assets/images/nhs/NHS_header_logo.png">
+
 <div id = "frontImg" class = "card" style = "width: 79%;">
 <img id = "User.png">
 <img src ="images/User.png"/>
-			<p style = "font-style: italic; font-size: 16px; text-align: left;">Feed: User Information</p>
+			<p style = "font-style: italic; font-size: 16px; text-align: left;">Welcome User!</p>
+            <p style = "font-style: italic; font-size: 16px; text-align: left;">Name:</p>
+            <p style = "font-style: italic; font-size: 16px; text-align: left;">Following:</p>
+            <p style = "font-style: italic; font-size: 16px; text-align: left;">Followers:</p>
 		</div>
         
 <div id = "frontImg" class = "card" style = "width: 79%;">
-			<p style = "font-style: italic; font-size: 16px; text-align: left;">Feed:Following/
-            Followers</p>
+			<p style = "font-style: italic; font-size: 16px; text-align: left;">Current Projects/Events: Party on the train</p>
 		</div>
 
 <!--Included via PHP-->
