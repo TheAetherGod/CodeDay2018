@@ -51,6 +51,7 @@ footer {
 a{
     text-decoration: none;
     color:white;
+    width: 25%;
 }
 a:hover{
     color:rgb(74, 202, 111);
