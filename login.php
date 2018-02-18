@@ -28,7 +28,8 @@
                 </label>
 
                 <a href="signup.php" id="newAccount" style="padding:10px;">Don't have an account?</a>
-
+                <a href="signup.php" id="newAccount" style="padding:10px; float:left;">Forgot your password?</a>
+                
                 <input type="submit" class="logButton" value="Log In">
                 
             </form>
