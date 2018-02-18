@@ -36,11 +36,11 @@
 
 
 <div id = "frontImg" class = "card" style = "width: 79%;">
-			<p style = "font-style: italic; font-size: 16px; text-align: left;">Feed: Looking for popular events?</p>
+			<p style = "font-style: italic; font-size: 16px; text-align: left;">Feed: User Information</p>
 		</div>
 
 <div id = "frontImg" class = "card" style = "width: 79%;">
-			<p style = "font-style: italic; font-size: 16px; text-align: left;">Feed: Looking for popular events?</p>
+			<p style = "font-style: italic; font-size: 16px; text-align: left;">Feed:Following/Followers</p>
 		</div>
 
 
