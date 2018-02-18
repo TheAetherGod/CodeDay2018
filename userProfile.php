@@ -27,12 +27,14 @@
 <body>
     <!--Fixed Img in Background-->
 
-<div id = "frontImg" class = "card" style = "width: 79%;height:500px;">
-<div style = "Height: 500px;">
+<div id = "frontImg" class = "card" style = "width: 79%;height:500px;display:flex;">
+
+<div style = "Height: 500px;width:20%">
 <img id = "User.png">
 <img src ="images/User.png"/>
 </div>
-<div>
+
+<div style = "Height: 500px;width:80%">
 			<p style = "font-style: italic; font-size: 16px; text-align: left;">Welcome User!</p>
             <p style = "font-style: italic; font-size: 16px; text-align: left;">Name:</p>
             <p style = "font-style: italic; font-size: 16px; text-align: left;">Following:</p>

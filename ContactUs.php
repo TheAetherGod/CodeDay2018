@@ -24,15 +24,18 @@
 <!--Included via PHP-->
 <header id = "header"><?php include "header.php"; ?></header>
 
-<div id = "frontImg" class = "card" style = "width: 79%;">
+<div id = "frontImg" class = "card" style = "width: 79%;height:350px;display:flex;">
+<div style = "Height: 350px;width:30%">
 <img id = "Phone.png">
 <img src ="images/Phone.png"/>
+</div>
+<div style = "Height: 350px;width:95%">
 			<p style = "font-style: italic; font-size: 16px; text-align: left;">Contact Information</p>
             <p style = "font-style: italic; font-size: 16px; text-align: left;">Make It Happen Headquarters: 123-456-7890</p>
             <p style = "font-style: italic; font-size: 16px; text-align: left;">Make It Happen Customer Service: 098-765-4321</p>
             <p style = "font-style: italic; font-size: 16px; text-align: left;">Email: MakeItHappen@Gmail.com</p>
 		</div>
-        
+        </div>
  <!--Included via PHP-->
 <footer id = "footer"><?php include "footer.php"; ?></footer>
 </html>
