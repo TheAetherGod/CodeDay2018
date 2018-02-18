@@ -39,6 +39,7 @@ include'database.php';?>
 </div>
 	</div>
     </div>
+    </div>
 </body>
 
 <!--Included via PHP-->
