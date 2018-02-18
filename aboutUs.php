@@ -25,8 +25,7 @@
 <div id = "footerPusher">
 <div id = "importantInfo" class = "card" style = "width: 79%;">
             <p>About Us...</p>
-            <p>Kush Shah, Ben Wagrez, Luis Pelayo and Salvador Guillen students of <a href="https://www.lphs.org/" style = "color: blue;">Lake Park High School</a> from the AP Computer Science class, created "MakeItHappen"  website at <a href="https://codeday.org/chicago" style = "color: blue;">Codeday Chicago</a> to improve events and make them easier to plan and sponsor</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/E8sMxqufRRw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <p>Kush Shah, Ben Wagrez, Luis Pelayo and Salvador Guillen students of <a href="https://www.lphs.org/" style = "color: blue;">Lake Park High School</a> from the AP Computer Science class, created "MakeItHappen"  website at <a href="https://codeday.org/chicago" style = "color: blue;">Codeday Chicago</a> to improve events and make them easier to plan and sponsor</p>    
     </div>
     </div>
 </body>
