@@ -151,8 +151,13 @@ array_push($a,$stmt->fetchALL(PDO::FETCH_COLUMN, 0));
 					  </div></th>
 					</tr>
 					<tr style = "height: 70%;font-size: 32px;">
+<<<<<<< HEAD
 						<th style = "text-align: center;text-shadow: 1px 1px 2px #000;color:rgb(100, 248, 144);"><a href = "interest.php"; style = "color:rgb(100, 248, 144); text-shadow: 1px 1px 2px #000;">Interested?</a></th>
 						<th style = "text-align: center;text-shadow: 1px 1px 2px #000;color:rgb(100, 248, 144);"><a href = "sponsors.php"; style = "color:rgb(100, 248, 144);">Sponsor!</a></th>
+=======
+						<th style = "text-align: center;text-shadow: 2px 2px 4px #000;color:rgb(100, 248, 144);"><a href = ""; style = "color:rgb(100, 248, 144);">Interested?</a></th>
+						<th style = "text-align: center;text-shadow: 2px 2px 4px #000;color:rgb(100, 248, 144);"><a href = ""; style = "color:rgb(100, 248, 144);">Sponsor!</a></th>
+>>>>>>> cf0b16d4945d4b1c38b09a9b69ab7f7c89310534
 					</tr>
 					<tr style = "height: 10%;font-size: 20px;">
 						<th style = "text-align: center;">',$eventInt,' users are interested!</th>
