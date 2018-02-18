@@ -15,7 +15,7 @@
     <script src="headerJQuery.js"></script>
     <script>
         $(document).ready(function(){
-            $("#homeLink").addClass("active");
+            $("#attendEventsLink").addClass("active");
         });
     </script>
 </head>
