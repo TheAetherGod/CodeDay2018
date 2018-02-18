@@ -26,16 +26,10 @@
 <body>
     <!--Fixed Img in Background-->
     <img id = "fixedBGImg" src = "https://www.nhs.us/assets/images/nhs/NHS_header_logo.png">
-    
-	<div id = "footerPusher">
-		<!--Home Page Panels-->
-		<div id = "importantInfo" class = "urgent panel">
-			<p class = "urgentText">Attention: No User Profile</p>
-			<p class = "urgentText"></p>
-		</div>
-
 
 <div id = "frontImg" class = "card" style = "width: 79%;">
+<img id=imageProfile src="User.png">
+
 			<p style = "font-style: italic; font-size: 16px; text-align: left;">Feed: User Information</p>
 		</div>
 
@@ -43,14 +37,6 @@
 			<p style = "font-style: italic; font-size: 16px; text-align: left;">Feed:Following/
             Followers</p>
 		</div>
-<body>
-
-		<div id = "aboutUs" class = "classic panel">
-			<p>User Profile Information</p>
-			<p> Welcome to the user profile where you can see projects you currently managing or following</p>
-		</div>
-	</div>
-</body>
 
 <!--Included via PHP-->
 <footer id = "footer"><?php include "footer.php"; ?></footer>
