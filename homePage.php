@@ -37,9 +37,7 @@
 			<p style = "text-align: left" class = "urgentText">Web discription:</p>
 			<p class = "urgentText"></p>
 		</div>
-		<div id = "aboutUs" class = "classic panel">
-			<p>About Us...</p>
-		</div>
+		
 	</div>
 </body>
 
