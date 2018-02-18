@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 18, 2018 at 10:12 AM
+-- Generation Time: Feb 18, 2018 at 12:55 PM
 -- Server version: 10.1.28-MariaDB
 -- PHP Version: 7.1.11
 
@@ -78,6 +78,13 @@ CREATE TABLE `eventinterest` (
   `userID` int(9) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `eventinterest`
+--
+
+INSERT INTO `eventinterest` (`eventID`, `userID`) VALUES
+(2, 1);
+
 -- --------------------------------------------------------
 
 --
@@ -85,7 +92,7 @@ CREATE TABLE `eventinterest` (
 --
 
 CREATE TABLE `eventowner` (
-  `usertID` int(9) NOT NULL,
+  `userID` int(9) NOT NULL,
   `eventID` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -170,7 +177,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`userID`, `firstName`, `lastName`, `email`, `password`, `imageFilePath`) VALUES
-(1, 'Benjamin', 'Wagrez', 'benwagrez@gmail.com', '224244', '');
+(1, 'Benjamin', 'Wagrez', 'benwagrez@gmail.com', '224244', 'placeHolderImage.jpg');
 
 --
 -- Indexes for dumped tables
