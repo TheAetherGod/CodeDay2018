@@ -29,10 +29,11 @@ include "database.php";?>
   </div>
   <div id = "importantInfo" class = "card" style = "width: 79%;">
             <p>Project Information</p> 
-			<p style = "font-style: italic; font-size: 16px; text-align: left;"></p>
-            <p style = "font-style: italic; font-size: 16px; text-align: left;"></p>
-            <p style = "font-style: italic; font-size: 16px; text-align: left;"></p>
-            <p style = "font-style: italic; font-size: 16px; text-align: left;"></p>
+            <p style = "font-style: italic; font-size: 16px; text-align: left;">===============================================================================================================================</p>
+			<p style = "font-style: italic; font-size: 16px; text-align: left;">Programming Languages Used In This Project Are Html, php, and javascript</p>
+            <p style = "font-style: italic; font-size: 16px; text-align: left;">Two of our programmers were taught how to program in these new languages in 24 hours!</p>
+            <p style = "font-style: italic; font-size: 16px; text-align: left;">This will benefit anyone looking to start events, recieve sponsorships,and attend events </p>
+            <p style = "font-style: italic; font-size: 16px; text-align: left;">===============================================================================================================================</p>
 		</div>
 
 </div>
