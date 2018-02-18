@@ -20,7 +20,7 @@
         });
     </script>
 </head>
-
+	<div id = "footerPusher">	
 <!--Included via PHP-->
 <header id = "header"><?php include "header.php"; ?></header>
 
@@ -33,4 +33,6 @@
             <p style = "font-style: italic; font-size: 16px; text-align: left;">Email: MakeItHappen@Gmail.com</p>
 		</div>
         
- 
+ <!--Included via PHP-->
+<footer id = "footer"><?php include "footer.php"; ?></footer>
+</html>
