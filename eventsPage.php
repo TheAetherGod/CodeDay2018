@@ -151,7 +151,7 @@ array_push($a,$stmt->fetchALL(PDO::FETCH_COLUMN, 0));
 					  </div></th>
 					</tr>
 					<tr style = "height: 70%;font-size: 32px;">
-						<th style = "text-align: center;text-shadow: 2px 2px 4px #000;color:rgb(100, 248, 144);"><a href = ""; style = "color:rgb(100, 248, 144); text-shadow: 2px 2px 4px #000;">Interested?</a></th>
+						<th style = "text-align: center;text-shadow: 2px 2px 4px #000;color:rgb(100, 248, 144);"><a href = ""; style = "color:rgb(100, 248, 144);">Interested?</a></th>
 						<th style = "text-align: center;text-shadow: 2px 2px 4px #000;color:rgb(100, 248, 144);"><a href = ""; style = "color:rgb(100, 248, 144);">Sponsor!</a></th>
 					</tr>
 					<tr style = "height: 10%;font-size: 20px;">
