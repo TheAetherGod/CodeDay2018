@@ -33,7 +33,7 @@
 		</div>
 
 		<!--Home Page Panels-->
-		<div id = "importantInfo" class = "urgent panel">
+		<div id = "importantInfo" class = "card" style = "width: 79%;">
 			<p style = "text-align: left" class = "urgentText">Web discription:</p>
 			<p class = "urgentText"></p>
 		</div>
