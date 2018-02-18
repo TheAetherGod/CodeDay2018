@@ -50,7 +50,7 @@ include 'database.php';?>
     <div id = "frontImg" class = "card" style = "width: 75%;height:400px;">
         <div id = "topDiv" style = "width:100%; height: 50%; display:flex;">
             <div style = "Height: 100%;width:30%;">
-                <img id = "User.png">
+                <img id = "images/User.png" >
                 <img style="height:85%;width:85%;padding:10px;" src ="images/<?php echo $data[0][5]; ?>"/>
             </div>
             <div style = "Height: 100%;width:70%;margin-top:15px;">

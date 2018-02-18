@@ -5,7 +5,7 @@
 	<div id = "headerLogout" class = "headerSignIn" style = "width: 20%; height: 95px ;background-color: #333; margin-right: 15px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.1);  margin-top: 10px;">
          <div id = "profileBox" style = "width: 100%; height: 50px; margin: 0px; padding-top: 5px;padding-left: 5px; text-shadow: 0px 0px 0px;box-shadow:0px 0px 0px; display: flex;">
              <div id = "profilePic" style = "width: 40%;height: 95px;padding:10px;" >
-                <img src ="images/placeHolderImage.jpg" style = "width = 100%; height: 50px;">
+                <img src ="images/User.png" style = "width = 100%; height: 50px;">
              </div>
             <a class = "headerLogoutButton" style = "width: 60%;color: rgb(74, 202, 111);background-color:font-family: Bookman, sans-serif;" onclick = "location.href='userProfile.php'">
                  <?php $sql = "SELECT * FROM users WHERE userID=:users";
