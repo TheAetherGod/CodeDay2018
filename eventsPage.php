@@ -133,7 +133,8 @@ array_push($a,$stmt->fetchALL(PDO::FETCH_COLUMN, 0));
 					<img src = "images/' , $data[0][9] ,'" style = "width: 100%;height: 100%;">
 				</div>
 				<div id = "descriptionOfEvent" style = "width: 60%; height: 100%; padding:0px; margin:0px;text-align:center;font-family:Bookman, sans-serif;font-size: 20px;">
-				<br><b style="color:rgb(100, 248, 144);text-shadow: 2px 2px 4px #000;">' , $data[0][1] ,'</b><br><hr>From ',$data[0][4],' to ',$data[0][5],'<br>',$data[0][2],'<br><br><hr>',$data[0][3],'
+				<br><b style="color:rgb(100, 248, 144);text-shadow: 2px 2px 4px #000;">' , $data[0][1] ,'</b><br><hr>';if($data[0][4]===$data[0][5]):echo 'During ', $data[0][4];
+                        else:echo 'From ',$data[0][4], ' to ', $data[0][5]; endif; echo' at ',$data[0][6],'<br>',$data[0][2],'<br><br><hr>',$data[0][3],'
 				</div>	
 			</div>
 			<hr style="border: 1px solid grey;

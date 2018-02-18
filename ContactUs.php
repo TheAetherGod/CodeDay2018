@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
-<?php session_start();?>
+<?php session_start();
+include "database.php";?>
 <html>
 <head>
     <title>Codeday</title>
