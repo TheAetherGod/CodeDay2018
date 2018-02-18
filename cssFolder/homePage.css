@@ -10,11 +10,52 @@ footer {
     background-color: rgb(49, 49, 49);
     width: calc(100% - 20px);
     position: absolute; 
+    background-color: #393939;
+    font-weight: bold;
+    clear: both;
+    font-size: 18px;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    flex-flow: row nowrap;
+    flex-shrink:2;
+    flex-basis: 10px;
     
 
     /*top: calc(100% + 180px);*/  /*Works for small pages but not long pages*/
     /*Works for long pages but not short pages*/  
     /* top: expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px'); */
+}
+#footerButtons {
+	bottom: 0;
+   position:absolute;
+   width:100%;
+   height: 50px;
+   background-color: #393939;
+   font-weight: bold;
+   clear: both;
+   font-size: 18px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   color: rgb(255, 255, 255);
+   flex-flow: row nowrap;
+   flex-shrink:2;
+   flex-basis: 10px;
+}
+#bottomtext:hover {
+	color:rgb(74, 202, 111);
+	transform: translateY(-2px);
+	transition: 400ms;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color:rgb(74, 202, 111);
+	transform: translateY(-2px);
+    transition: 400ms;
 }
 #footerPusher{
     position:relative;
