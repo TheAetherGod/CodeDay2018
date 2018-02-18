@@ -209,4 +209,6 @@ Questions about the Terms of Service should be sent to us at SALGUILLEN@students
 
 		</div>
         
- 
+ <!--Included via PHP-->
+<footer id = "footer"><?php include "footer.php"; ?></footer>
+</html>
