@@ -69,15 +69,6 @@ include 'database.php';?>
 			margin-bottom: 35px;
 			width: 99%;">
         <div id = "userComments" style = "width: 100%; height: 50%;padding:10px;">
-        <?php
-        echo'
-                <table>
-                    <tr>        
-                        <td><label>Description :</label></td>
-                        <td><textarea rows="4" cols="36" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" maxlength="128" style="overflow:hidden" width="250" name="description" placeholder="eg: A party inside a train across Europe." form="eventCreator"></textarea></td>
-                    </tr>
-                </table>';
-        ?>
         </div>
     </div>
 </body>        
