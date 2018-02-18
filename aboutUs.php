@@ -27,13 +27,13 @@ include "database.php";?>
 <div id = "importantInfo" class = "card" style = "width: 79%;">
             <p>Kush Shah, Ben Wagrez, Luis Pelayo and Salvador Guillen students of <a href="https://www.lphs.org/" style = "color: blue;">Lake Park High School</a> from the AP Computer Science class, created "MakeItHappen"  website at <a href="https://codeday.org/chicago" style = "color: blue;">Codeday Chicago</a> to improve events and make them easier to plan and sponsor</p>    
   </div>
-  <div id = "importantInfo" class = "card" style = "width: 79%;">
+  <div id = "importantInfo" class = "card" style = "width: 79%; text-align:center;">
             <p>Project Information</p> 
-            <p style = "font-style: italic; font-size: 16px; text-align: left;">===============================================================================================================================</p>
-			<p style = "font-style: italic; font-size: 16px; text-align: left;">Programming Languages Used In This Project Are Html, php, and javascript</p>
-            <p style = "font-style: italic; font-size: 16px; text-align: left;">Two of our programmers were taught how to program in these new languages in 24 hours!</p>
-            <p style = "font-style: italic; font-size: 16px; text-align: left;">This will benefit anyone looking to start events, recieve sponsorships,and attend events </p>
-            <p style = "font-style: italic; font-size: 16px; text-align: left;">===============================================================================================================================</p>
+            <p style = "font-style: italic; font-size: 16px; ">===============================================================================</p>
+			<p style = "font-style: italic; font-size: 16px; ">Programming Languages Used In This Project Are Html, php, and javascript</p>
+            <p style = "font-style: italic; font-size: 16px; ">Two of our programmers were taught how to program in these new languages in 24 hours!</p>
+            <p style = "font-style: italic; font-size: 16px; ">This will benefit anyone looking to start events, recieve sponsorships,and attend events </p>
+            <p style = "font-style: italic; font-size: 16px; ">===============================================================================</p>
            <div style = "text-align: center;"><img src="images/Group4.jpg"></div>
 </div>
 </div>
