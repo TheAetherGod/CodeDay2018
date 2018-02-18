@@ -36,8 +36,8 @@
 			<b1 style = "color:Yellow;"> Here are some more events.</b1>
 		</div>
 		<div id = "Event1">
-		 	<div id = "frontImg" class = "card" style = "width: 95%;" style = "height: 100;">
-				<p style = "font-style: italic; font-size: 16px; padding: 200px;">Promoting appropriate recognition of students who reflect outstanding accomplishments in the areas of scholarship, leadership, character, and service.</p>
+		 	<div id = "frontImg" class = "card" style = "width: 95%;">
+				 <p style = "font-style: italic; font-size: 16px; padding: 200px;"></p>
 			</div>
 		</div>
 	</div>
