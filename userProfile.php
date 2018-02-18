@@ -44,6 +44,9 @@ include 'database.php';?>
                 <p style = "font-style: italic; font-size: 16px; text-align: left;">Following:</p>
                 <p style = "font-style: italic; font-size: 16px; text-align: left;">Followers:</p>
                 <p style = "font-style: italic; font-size: 16px; text-align: left;">Current Projects/Events: Party on the train</p>
+                <form action="eventCreation.php">
+    <input type="submit" value="Create +" />
+</form>
             </div>
         </div>
         <div id = "userComments" style = "width: 100%; height: 250px;">
