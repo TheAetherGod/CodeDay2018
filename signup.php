@@ -21,15 +21,15 @@
                         <hr class="loghr">
 
                     <label class="field">
-                        <input type="text" placeholder="Username*" name="usernameSignUp" id="usernameSignUp" class="input">
+                        <input type="text" placeholder="First Name*" name="firstNameSignUp" id="firstNameSignUp" class="input">
                     </label>
             
                     <label class="field">
-                        <input type="text" placeholder="Email*" name="emailSignUp" id="emailSignUp" class="input">
+                        <input type="text" placeholder="Last Name*" name="lastNameSignUp" id="lastNameSignUp" class="input">
                     </label>        
 
                     <label class="field">
-                        <input type="text" placeholder="Phone Number*" name="phoneSignUp" id="phoneSignUp" class="input">
+                        <input type="text" placeholder="Email*" name="emailSignUp" id="emailSignUp" class="input">
                     </label>  
 
                     <label class="field">     
