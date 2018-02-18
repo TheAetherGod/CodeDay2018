@@ -25,14 +25,21 @@ include "database.php";?>
 <body>
 <div id = "footerPusher">
 <div id = "importantInfo" class = "card" style = "width: 79%;">
-            <p>About Us...</p>
             <p>Kush Shah, Ben Wagrez, Luis Pelayo and Salvador Guillen students of <a href="https://www.lphs.org/" style = "color: blue;">Lake Park High School</a> from the AP Computer Science class, created "MakeItHappen"  website at <a href="https://codeday.org/chicago" style = "color: blue;">Codeday Chicago</a> to improve events and make them easier to plan and sponsor</p>    
   </div>
-  <div>
   <div id = "importantInfo" class = "card" style = "width: 79%;">
-            <p>Additional Information</p> 
+            <p>Project Information</p> 
+			<p style = "font-style: italic; font-size: 16px; text-align: left;"></p>
+            <p style = "font-style: italic; font-size: 16px; text-align: left;"></p>
+            <p style = "font-style: italic; font-size: 16px; text-align: left;"></p>
+            <p style = "font-style: italic; font-size: 16px; text-align: left;"></p>
+		</div>
+
+</div>
+</div>
 </form>
   </div>
+    </div>
     </div>
     </div>
 </body>
