@@ -38,6 +38,7 @@
         <div style = "text-align: center;"><iframe  width="560" height="315" SRC="https://www.youtube.com/embed/E8sMxqufRRw"</div>
 </div>
 	</div>
+    </div>
 </body>
 
 <!--Included via PHP-->
