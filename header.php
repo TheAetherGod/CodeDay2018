@@ -13,7 +13,7 @@
 <div id = "navBarWrapper">
     <nav id = "navBar" class = "topnav">
             <a class = "baseText" id = "homeLink" href = "homePage.php">Home</a>
-            <a class = "baseText" id = "eventsLink" href = "events.php">Sponsor and View Events</a>
+            <a class = "baseText" id = "eventsLink" href = "eventsPage.php">Sponsor and View Events</a>
             <a class = "baseText" id = "attendEventsLink" href = "attendEvents.php">Attend Events</a>
 
     </nav>
