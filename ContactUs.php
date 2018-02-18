@@ -33,7 +33,7 @@
 			<p style = "font-style: italic; font-size: 16px; text-align: left;">Contact Information</p>
             <p style = "font-style: italic; font-size: 16px; text-align: left;">Make It Happen Headquarters: 123-456-7890</p>
             <p style = "font-style: italic; font-size: 16px; text-align: left;">Make It Happen Customer Service: 098-765-4321</p>
-            <p style = "font-style: italic; font-size: 16px; text-align: left;">Email: MakeItHappen@Gmail.com</p>
+            <p style = "font-style: italic; font-size: 16px; text-align: left;">Email:<p>We want to hear from you! <a href="mailto:makeithappenoffical@gmail.com ?subject=Service Feedback">Send us an email.</a></p>  </p>
 		</div>
         </div>
  <!--Included via PHP-->
