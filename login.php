@@ -27,7 +27,7 @@
                     <input type="password" placeholder="Password" name="password" id="passwordLogIn" class="input">
                 </label>
 
-                <a href="signup.php" id="newAccount">Don't have an account?</a>
+                <a href="signup.php" id="newAccount" style="padding:10px;">Don't have an account?</a>
 
                 <input type="submit" class="logButton" value="Log In">
                 

@@ -1,5 +1,5 @@
 <div id = "banner" style = "width:100%">
-	<img id = "LPLogo" src = "images/Logo.png" height="150" width="150" style="padding:0px;">
+	<img id = "LPLogo" src = "images/Logo.png" height="140" width="160" style="padding:0px;">
         
 <h1 class = "baseTitle" style = "padding-bottom: 0px; margin-bottom:0px; color: rgb(74, 202, 111);  font-size:64px; text-shadow: 2px 2px 4px #000;"><span id = "LPNHS" style = "cursor: pointer;" onclick = "location.href='homePage.php'">Make It Happen</span></h1>
 <?php if(isset($_SESSION["userID"])) : ?>
