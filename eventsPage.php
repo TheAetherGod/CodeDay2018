@@ -138,7 +138,7 @@ array_push($a,$stmt->fetchALL(PDO::FETCH_COLUMN, 0));
 				</div>	
 			</div>
 			<hr style="border: 1px solid grey;
-			margin-bottom: 35px;
+			margin-bottom: 20px;
 			width: 99%;">
 			<div id = "intrested?Sponsor?Going?" style = "width: 100%; height: 40%; padding:0px;margin:0px;">
 				<table style = "width: 100%;height:70%;">
