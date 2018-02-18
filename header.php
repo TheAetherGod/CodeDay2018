@@ -8,7 +8,7 @@
              <div id = "profilePic" style = "width: 40%;height: 95px" >
                 <img src ="images/placeHolderImage.jpg" style = "width = 100%; height: 50px;">
              </div>
-            <a class = "headerLogoutButton" style = "width: 60%;color: rgb(74, 202, 111);background-color: white;font-family: Bookman, sans-serif;">
+            <a class = "headerLogoutButton" style = "width: 60%;color: rgb(74, 202, 111);background-color: white;font-family: Bookman, sans-serif;" onclick = "location.href='userProfile.php'">
                  Nicolas C. 
                  I was born on a day
             </a>
