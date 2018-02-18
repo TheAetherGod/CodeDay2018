@@ -86,7 +86,7 @@ include"database.php";?>
                                 <td><input name="amount" type="integer" placeholder="eg: 1000 = $1000.00" required></td>
                             </tr>
                             <tr>
-                                <td><input name="eventID" type="hidden" placeholder="eg: 1000 = $1000.00" value='"',$_GET['value_key'],'"';required></td>
+                                <td><input name="eventID" type="hidden" value="<?php echo $_GET['eventID']; ?>";required></td>
                                 <td style = "text-align:center;text-sixe:200%;"><input type="submit" value="Submit" class = "classicColor"/></td>
                             </tr>
                             </table>

@@ -16,9 +16,13 @@
     extract($_SESSION['post']); 
         $sql = "INSERT INTO `eventsponsor`(`eventID`, `userID`, `sponsorAmnt`) VALUES (:eventid,:userid,:sponsoramnt)";
         $stmt = $pdo->prepare($sql);
-        $stmt->execute(["eventid" => $eventID, "userid" => $_SESSION['userID'], "sponsoramnt" = > $amount]);
-    
+        $stmt->execute(["eventid" => $eventID, "userid" => $_SESSION['userID'], "sponsoramnt" => $amount]);
+
+        $sql = "UPDATE `events` SET `moneyRaised`=:sponsor WHERE eventsID=:eventID";
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute(["eventID" => $eventID, "sponsor" => $amount]);
+
         setcookie("ERROR","Duplicate event detected.", time() + (86400 * 30), "/");
     
-    header("Location: eventCreation.php");
+    header("Location: eventsPage.php");
 ?>
