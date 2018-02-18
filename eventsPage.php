@@ -29,24 +29,26 @@
 <body>
 	<div id = "footerPusher">	
 	 	<!--MAIN CODE-->
-		<div class="textStuff">
-			<p style = "font-size: 300%"> Create an Event?</p>
-		</div>
 		<div id = "Event1" class = "card" style = "width: 95%; height: 500px;">
 			<div id = "placeHolderDiv" style = "width: 100%; height:250px; display: flex;justify-content: center;">
 				<div id = "picOfEvent" style =" width: 50%; height:250px; padding:0px; margin:0px;">
-					<img src = "images/placeHolderImage.jpg" style = "width: 100%;">
+					<img src = "images/placeHolderImage.jpg" style = "width: 100%;height: 250px;">
 				</div>
 				<div id = "descriptionOfEvent" style = "width: 50%; height: 250px; padding:0px; margin:0px;">
 					Here's a desrciption of the Event
 				</div>	
 			</div>
-			<div id = "intrested?Sponsor?Going?" style = "width: 100%; height: 250px; padding:0px;margin:0px;">
-				<table style = "width: 100%; border: 1px;">
-					<tr style = "height: 150px;">
-						<th stlye = "text-align: center; font-size: 300%; border: 1px;">Intrested?</th>
-						<th stlye = "text-align: center; font-size: 100%; border: 1px;">Sonsor?</th>
-						<th stlye = "text-align: center; font-size: 100%; border: 1px;">Going?</th>
+			<div id = "intrested?Sponsor?Going?" style = "width: 100%; height: 240px; padding:0px;margin:0px;">
+				<table style = "width: 100%;height:240px; border: 2px solid black;">
+					<tr style = "height: 150px; border: 2px solid black; font-size: 300%;">
+						<th stlye = "text-align: center;">Intrested?</th>
+						<th stlye = "text-align: center;">Sonsor?</th>
+						<th stlye = "text-align: center;">Going?</th>
+					</tr>
+					<tr style = "height: 90px; border: 2px solid black;">
+						<th stlye = "text-align: center;">This many people are intrested</th>
+						<th stlye = "text-align: center;">This many parties are sponsoring it</th>
+						<th stlye = "text-align: center;">This many people are going</th>
 					</tr>
 				</table>
 			</div>	
