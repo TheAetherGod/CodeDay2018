@@ -1,8 +1,7 @@
 <!DOCTYPE HTML>
+<?php session_start();?>
 <html>
 <head>
-    <title>LPNHS - Home</title>
-    
     <!--TODO: Icon-->
     <!--Style Sheets-->
 	<style>
@@ -43,7 +42,13 @@
 				</div>	
 			</div>
 			<div id = "intrested?Sponsor?Going?" style = "width: 100%; height: 250px; padding:0px;margin:0px;">
-
+				<table style = "width: 100%; border: 1px;">
+					<tr style = "height: 150px;">
+						<th stlye = "text-align: center; font-size: 300%; border: 1px;">Intrested?</th>
+						<th stlye = "text-align: center; font-size: 100%; border: 1px;">Sonsor?</th>
+						<th stlye = "text-align: center; font-size: 100%; border: 1px;">Going?</th>
+					</tr>
+				</table>
 			</div>	
 		</div>
 	</div>
