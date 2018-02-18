@@ -55,8 +55,17 @@ include"database.php";?>
 <body>
     <div id = "footerPusher">	
         <!--Included via PHP-->
-        <div id = "donationStuff" class = "card" style = "width: 80%; height: 100px;">
-            <p> Donation Info here again</p>
+        <div id = "donationStuff" class = "card" style = "width: 80%; height: 250px;">
+            <p> <?php
+             $sql = "SELECT * FROM events WHERE eventID=:events";
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute(["events" => $_GET['eventID']]); 
+        $data = array();
+        $data = $stmt->fetchAll(); 
+        echo'<div id = "descriptionOfEvent" style = "width: 100%; height: 100%; padding:0px; margin:0px;text-align:center;font-family:Bookman, sans-serif;font-size: 20px;">
+        <b style="color:rgb(100, 248, 144);text-shadow: 1px 1px 2px #000;">' , $data[0][1] ,'</b><br><hr>';if($data[0][4]===$data[0][5]):echo 'During ', $data[0][4];
+                else:echo 'From ',$data[0][4], ' to ', $data[0][5]; endif; echo' at ',$data[0][6],'<br>',$data[0][2],'<br><br><hr>',$data[0][3],'
+        </div>';?></p>
         </div>
         <div id = "cardInfoStuff" class = "card" style = "width: 80%; height 500px;">
             <div class="container">
