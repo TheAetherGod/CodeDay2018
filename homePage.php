@@ -39,7 +39,7 @@
   <source src="images/Yes.mp4" type="video/mp4">
 			<p class = "urgentText"></p>
 		</div>
-		
+		<?php echo phpinfo(); ?>
 	</div>
 </body>
 
