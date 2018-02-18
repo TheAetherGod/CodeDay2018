@@ -34,8 +34,9 @@ include "database.php";?>
             <p style = "font-style: italic; font-size: 16px; text-align: left;">Two of our programmers were taught how to program in these new languages in 24 hours!</p>
             <p style = "font-style: italic; font-size: 16px; text-align: left;">This will benefit anyone looking to start events, recieve sponsorships,and attend events </p>
             <p style = "font-style: italic; font-size: 16px; text-align: left;">===============================================================================================================================</p>
-		</div>
-
+           <div style = "text-align: center;"><img src="images/Group4.jpg"></div>
+</div>
+</div>
 </div>
 </div>
 </form>
