@@ -26,13 +26,12 @@
 <body>
     <!--Fixed Img in Background-->
     <img id = "fixedBGImg" src = "https://www.nhs.us/assets/images/nhs/NHS_header_logo.png">
-
 <div id = "frontImg" class = "card" style = "width: 79%;">
-<img id=imageProfile src="User.png">
-
+<img id = "User.png">
+<img src ="images/User.png"/>
 			<p style = "font-style: italic; font-size: 16px; text-align: left;">Feed: User Information</p>
 		</div>
-
+        
 <div id = "frontImg" class = "card" style = "width: 79%;">
 			<p style = "font-style: italic; font-size: 16px; text-align: left;">Feed:Following/
             Followers</p>
