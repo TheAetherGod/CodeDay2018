@@ -35,6 +35,8 @@
 		<!--Home Page Panels-->
 		<div id = "importantInfo" class = "card" style = "width: 79%;">
 			<p style = "text-align: left" class = "urgentText">Web discription:</p>
+            <video width="320" height="240" controls>
+  <source src="images/Yes.mp4" type="video/mp4">
 			<p class = "urgentText"></p>
 		</div>
 		
