@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
-<?php session_start();?>
+<?php session_start();
+include "database.php";?>
 <html>
 <head>
     <title>Codeday</title>
@@ -26,6 +27,12 @@
 <div id = "importantInfo" class = "card" style = "width: 79%;">
             <p>About Us...</p>
             <p>Kush Shah, Ben Wagrez, Luis Pelayo and Salvador Guillen students of <a href="https://www.lphs.org/" style = "color: blue;">Lake Park High School</a> from the AP Computer Science class, created "MakeItHappen"  website at <a href="https://codeday.org/chicago" style = "color: blue;">Codeday Chicago</a> to improve events and make them easier to plan and sponsor</p>    
+  </div>
+  <div>
+  <div id = "importantInfo" class = "card" style = "width: 79%;">
+            <p>Additional Information</p> 
+</form>
+  </div>
     </div>
     </div>
 </body>

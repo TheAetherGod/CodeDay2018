@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
-<?php session_start();?>
+<?php session_start();
+include'database.php';?>
 <html>
 <head>
     <title>Codeday</title>
@@ -25,7 +26,6 @@
 <header id = "header"><?php include "header.php"; ?></header>
 
 <body>
-    
 	<div id = "footerPusher">
 		<!--Home Page Main Img Card-->
 		<div id = "frontImg" class = "card" style = "width: 79%;">
@@ -34,9 +34,10 @@
 
 		<!--Home Page Panels-->
 		<div id = "importantInfo" class = "card" style = "width: 79%;">
-			<p style = "text-align: left" class = "urgentText">Web discription:</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/E8sMxqufRRw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-		</div>
+			<p style = "text-align: left" class = "urgentText">Web description:</p>
+            <div style = "text-align: center;"><iframe  width="560" height="315" SRC="https://www.youtube.com/embed/E8sMxqufRRw"></iframe>
+            </div>
+        </div>
 	</div>
 </body>
 

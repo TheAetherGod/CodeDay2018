@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
-<?php session_start();?>
+<?php session_start();
+include "database.php";?>
 <html>
 <style>
         form{
@@ -48,11 +49,6 @@
     <!--jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="headerJQuery.js"></script>
-    <script>
-        $(document).ready(function(){
-            $("#homeLink").addClass("active");
-        });
-    </script>
 </head>
 
 <!--Included via PHP-->
@@ -67,15 +63,7 @@
                 <?php include "eventCreationPg1.php"; ?>
             </div>
             <?php 
-        if(isset($_COOKIE['ERROR'])) {
-            $Error = $_COOKIE['ERROR'];
-            echo '<script>
-            $(document).ready(function(){
-                alert("', $Error,'");
-            });
-            </script>';
-            setcookie("ERROR","", time() - (86400 * 30), "/");
-            }
+
 
 ?>
 	</div>
