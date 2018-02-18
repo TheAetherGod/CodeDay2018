@@ -58,7 +58,7 @@ include 'database.php';?>
                 <img id = "User.png">
                 <img style="height:100%;width:100%;" src ="images/<?php echo $data[0][5]; ?>"/>
             </div>
-            <div style = "Height: 100%;width:70%padding:10px;">
+            <div style = "Height: 100%;width:70%padding:10px;margin-top:15px;">
 			    <p style = "font-style: italic; font-size: 16px; text-align: left;">Welcome <?php echo $data[0][1]; ?>!</p>
                 <p style = "font-style: italic; font-size: 16px; text-align: left;">Name: <?php echo $data[0][1],' ',$data[0][2]; ?></p>
                 <p style = "font-style: italic; font-size: 16px; text-align: left;">Following: <?php for($x=0;$x<$following;$x++){echo $userFollowingArray[0][$x]; }?></p>

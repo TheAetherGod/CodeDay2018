@@ -13,7 +13,7 @@
                             $stmt->execute(["users" => $_SESSION["userID"]]); 
                             $data = array();
                             $data = $stmt->fetchAll();
-                            echo '<p style="padding:5px;">',$data[0][1],'</p>';?> 
+                            echo '<p style="padding:5px;cursor: pointer;">',$data[0][1],'</p>';?> 
             </a>
         </div>
     </div>
