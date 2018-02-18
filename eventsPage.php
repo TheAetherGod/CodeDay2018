@@ -42,7 +42,7 @@
 				<table style = "width: 100%;height:240px; border: 2px solid black;">
 					<tr style = "height: 150px; border: 2px solid black; font-size: 300%;">
 						<th stlye = "text-align: center;">Intrested?</th>
-						<th stlye = "text-align: center;">Sonsor?</th>
+						<th stlye = "text-align: center;">Sponsor?</th>
 						<th stlye = "text-align: center;">Going?</th>
 					</tr>
 					<tr style = "height: 90px; border: 2px solid black;">
