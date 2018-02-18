@@ -19,7 +19,7 @@
     <script src="headerJQuery.js"></script>
     <script>
         $(document).ready(function(){
-            $("#homeLink").addClass("active");
+            $("#eventsLink").addClass("active");
         });
     </script>
 </head>
@@ -32,13 +32,14 @@
 	 	<!--MAIN CODE-->
 		<div class="textStuff">
 			<p style = "font-size: 300%"> Create an Event?</p>
-			<p> Here are the events.</p>
-			<b1 style = "color:Yellow;"> Here are some more events.</b1>
 		</div>
-		<div id = "Event1">
-		 	<div id = "frontImg" class = "card" style = "width: 95%;">
-				 <p style = "font-style: italic; font-size: 16px; padding: 200px;"></p>
+		<div id = "Event1" class = "card" style = "width: 95%; height: 500px;display: flex;">
+			<div id = "picOfEvent" style =" width: 50%; height:500px; padding:0px; margin:0px;">
+				<img src = "images/placeHolderImage.jpg" style = "width: 100%;">
 			</div>
+			<div id = "descriptionOfEvent" style = "width: 50%; height: 500px; padding:0px; margin:0px;">
+				Here is the discription of the Event
+			</div>		
 		</div>
 	</div>
 </body>
