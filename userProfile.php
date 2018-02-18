@@ -26,22 +26,27 @@
 
 <body>
     <!--Fixed Img in Background-->
-
-<div id = "frontImg" class = "card" style = "width: 79%;height:500px;display:flex;">
-
-<div style = "Height: 500px;width:20%">
-<img id = "User.png">
-<img src ="images/User.png"/>
-</div>
-
-<div style = "Height: 500px;width:80%">
-			<p style = "font-style: italic; font-size: 16px; text-align: left;">Welcome User!</p>
-            <p style = "font-style: italic; font-size: 16px; text-align: left;">Name:</p>
-            <p style = "font-style: italic; font-size: 16px; text-align: left;">Following:</p>
-            <p style = "font-style: italic; font-size: 16px; text-align: left;">Followers:</p>
-            <p style = "font-style: italic; font-size: 16px; text-align: left;">Current Projects/Events: Party on the train</p>
+    <div id = "frontImg" class = "card" style = "width: 79%;height:500px;">
+        <div id = "topDiv" style = "width:100%; height: 250px; display:flex;">
+            <div style = "Height: 250px;width:30%; margin-left: 15px;">
+                <img id = "User.png">
+                <img src ="images/User.png"/>
             </div>
-		</div>
+            <div style = "Height: 250px;width:70%">
+			    <p style = "font-style: italic; font-size: 16px; text-align: left;">Welcome User!</p>
+                <p style = "font-style: italic; font-size: 16px; text-align: left;">Name:</p>
+                <p style = "font-style: italic; font-size: 16px; text-align: left;">Following:</p>
+                <p style = "font-style: italic; font-size: 16px; text-align: left;">Followers:</p>
+                <p style = "font-style: italic; font-size: 16px; text-align: left;">Current Projects/Events: Party on the train</p>
+            </div>
+        </div>
+        <div id = "userComments" style = "width: 100%; height: 250px;">
+            <p>
+                Comments go HERE!!!
+            </p>
+        </div>
+    </div>
+</body>        
 <!--Included via PHP-->
 <footer id = "footer"><?php include "footer.php"; ?></footer>
 </html>
