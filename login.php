@@ -13,7 +13,8 @@
 </head>
 <body>
 <div id="container">
-<header id = "header"><?php include "header.php"; ?></header>        <div class="body">
+<header id = "header"><?php include "header.php"; ?></header>
+        <div class="body">
             <form id="login" class="form" action="session.php" method="post" style="height:350px;">
                     <h2 class="logTitle">Log In</h2>
                     <hr class="loghr">
