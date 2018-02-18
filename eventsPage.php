@@ -33,13 +33,18 @@
 		<div class="textStuff">
 			<p style = "font-size: 300%"> Create an Event?</p>
 		</div>
-		<div id = "Event1" class = "card" style = "width: 95%; height: 500px;display: flex;">
-			<div id = "picOfEvent" style =" width: 50%; height:500px; padding:0px; margin:0px;">
-				<img src = "images/placeHolderImage.jpg" style = "width: 100%;">
+		<div id = "Event1" class = "card" style = "width: 95%; height: 500px;">
+			<div id = "placeHolderDiv" style = "width: 100%; height:250px; display: flex;justify-content: center;">
+				<div id = "picOfEvent" style =" width: 50%; height:250px; padding:0px; margin:0px;">
+					<img src = "images/placeHolderImage.jpg" style = "width: 100%;">
+				</div>
+				<div id = "descriptionOfEvent" style = "width: 50%; height: 250px; padding:0px; margin:0px;">
+					Here's a desrciption of the Event
+				</div>	
 			</div>
-			<div id = "descriptionOfEvent" style = "width: 50%; height: 500px; padding:0px; margin:0px;">
-				Here is the discription of the Event
-			</div>		
+			<div id = "intrested?Sponsor?Going?" style = "width: 100%; height: 250px; padding:0px;margin:0px;">
+
+			</div>	
 		</div>
 	</div>
 </body>
