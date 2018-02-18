@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>LPNHS - Home</title>
+    <title>Codeday</title>
     
     <!--TODO: Icon-->
     
