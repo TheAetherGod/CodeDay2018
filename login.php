@@ -20,7 +20,7 @@
                     <hr class="loghr">
 
                 <label class="field">
-                    <input type="text" placeholder="Username" name="username" id="usernameLogIn" class="input">
+                    <input type="text" placeholder="Email" name="email" id="emailLogIn" class="input">
                 </label>
                 <label class="field">
             
