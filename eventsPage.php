@@ -1,5 +1,16 @@
 <!DOCTYPE HTML>
-<?php session_start();?>
+<?php session_start();
+include "database.php";
+$sql = "SELECT * FROM events";
+$stmt = $pdo->prepare($sql);
+$stmt->execute();
+
+$eventCount = $stmt->rowCount();
+$a=array();
+array_push($a,$stmt->fetchALL(PDO::FETCH_COLUMN, 0));
+//collecting home bills
+
+?>
 <html>
 <head>
     <!--TODO: Icon-->
@@ -29,30 +40,43 @@
 <body>
 	<div id = "footerPusher">	
 	 	<!--MAIN CODE-->
+		 <?php
+                        for($i = 0; $i <$eventCount; $i++){
+                            
+                            $sql = "SELECT * FROM events WHERE eventID=:events";
+                            $stmt = $pdo->prepare($sql);
+                            $stmt->execute(["events" => $a[0][$i]]); 
+                            $data = array();
+                            $data = $stmt->fetchAll();
+                            //collecting bill information
+							
+                            echo '
+                        
 		<div id = "Event1" class = "card" style = "width: 95%; height: 500px;">
 			<div id = "placeHolderDiv" style = "width: 100%; height:250px; display: flex;justify-content: center;">
 				<div id = "picOfEvent" style =" width: 50%; height:250px; padding:0px; margin:0px;">
 					<img src = "images/placeHolderImage.jpg" style = "width: 100%;height: 250px;">
 				</div>
 				<div id = "descriptionOfEvent" style = "width: 50%; height: 250px; padding:0px; margin:0px;">
-					Here's a desrciption of the Event
+					Here\'s a desrciption of the Event
 				</div>	
 			</div>
 			<div id = "intrested?Sponsor?Going?" style = "width: 100%; height: 240px; padding:0px;margin:0px;">
 				<table style = "width: 100%;height:240px; border: 2px solid black;">
 					<tr style = "height: 150px; border: 2px solid black; font-size: 300%;">
-						<th stlye = "text-align: center;">Intrested?</th>
-						<th stlye = "text-align: center;">Sponsor?</th>
-						<th stlye = "text-align: center;">Going?</th>
+						<th style = "text-align: center;">Intrested?</th>
+						<th style = "text-align: center;">Sponsor?</th>
+						<th style = "text-align: center;">Going?</th>
 					</tr>
 					<tr style = "height: 90px; border: 2px solid black;">
-						<th stlye = "text-align: center;">This many people are intrested</th>
-						<th stlye = "text-align: center;">This many parties are sponsoring it</th>
-						<th stlye = "text-align: center;">This many people are going</th>
+						<th style = "text-align: center;">' , $data[0][1] ,'  This many people are intrested</th>
+						<th style = "text-align: center;">This many parties are sponsoring it</th>
+						<th style = "text-align: center;">This many people are going</th>
 					</tr>
 				</table>
 			</div>	
-		</div>
+		</div>';}
+		?>
 	</div>
 </body>
 
