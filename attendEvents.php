@@ -143,21 +143,12 @@ array_push($a,$stmt->fetchALL(PDO::FETCH_COLUMN, 0));
 			<div id = "intrested?Sponsor?Going?" style = "width: 100%; height: 40%; padding:0px;margin:0px;">
 				<table style = "width: 100%;height:70%;">
 				<tr style = "height: 5%; font-size: 18px;">
-						<th style = "text-align: center;color:rgb(100, 248, 144);text-shadow: 1px 1px 2px #000;" colspan="2">$',$data[0][8],' has been raised out of $',$data[0][7],'</th>
+						<th style = "text-align: center;color:rgb(100, 248, 144);text-shadow: 1px 1px 2px #000;" colspan="2">We have been fully funded!</th>
 					</tr>
 				<tr style = "height: 15%; font-size: 40px;">
 						<th style = "text-align: center;" colspan="2"><div class="meter">
-						<span style="width: ',($data[0][8]/$data[0][7])*100,'%;"></span>
+						<span style="width: 100%;"></span>
 					  </div></th>
-					</tr>
-					<tr style = "height: 70%;font-size: 32px;">
-						<th style = "text-align: center;text-shadow: 1px 1px 2px #000;color:rgb(100, 248, 144);"><a href = "interest.php?eventID=',$data[0][0],'"; style = "color:rgb(100, 248, 144); text-shadow: 1px 1px 2px #000;">Interested?</a></th>
-						<th style = "text-align: center;text-shadow: 1px 1px 2px #000;color:rgb(100, 248, 144);"><a href = "sponsorPage.php?eventID=',$data[0][0],'"; style = "color:rgb(100, 248, 144);">Sponsor!</a></th>
-
-					</tr>
-					<tr style = "height: 10%;font-size: 20px;">
-						<th style = "text-align: center;">',$eventInt,' users are interested!</th>
-						<th style = "text-align: center;">',$eventSpo,' users are sponsoring!</th>
 					</tr>
 				</table>
 			</div>	
