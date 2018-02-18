@@ -39,4 +39,6 @@
 
 		</div>
         
- 
+ <!--Included via PHP-->
+<footer id = "footer"><?php include "footer.php"; ?></footer>
+</html>
